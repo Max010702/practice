@@ -34,25 +34,23 @@ print("==== Keyword & default arguments ====")
 # DEFINE
 
 
-def give_greet(name, age=22):
+def giv(name, age=22):
     print("give_greet is executed")
-    return f"Hi {name}, you are {age} years old"
+    return (f"Hi {name}, you are {age} years old")
+
+    # CALL
+    result3 = give_greet("John")
+    print("result3:", result3)
+
+    print("==== Scope ====")
+    b = 100
+
+    # DEFINE
 
 
-# CALL
-result3 = give_greet("John")
-print("result3:", result3)
-
-
-print("==== Scope ====")
-b = 100
-
-
-# DEFINE
-def calculate(a):
+def calculate(a, b):
     c = a * b
     print(f"the c value: {c}")
 
-
-# CALL
-calculate(5)
+    # CALL
+    calculate(5)
