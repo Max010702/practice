@@ -1,6 +1,6 @@
 print("==== Iterable objects & RANGE ====")
 # Iterable - iterate yani takrorlanish xususiyatiga ega
-# Iterable objects > string dict tuple list range map filter.   Eng soddasi string
+# Iterable objects > string dict tuple list zip range map filter.   Eng soddasi string
 
 text = "MIT"
 for letter in text:
